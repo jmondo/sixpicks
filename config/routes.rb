@@ -1,8 +1,5 @@
 Sixpicks::Application.routes.draw do
-  get "picks/index"
-
-  get "pages/index"
-  root :to => "pages#index"
+  root :to => "picks#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
