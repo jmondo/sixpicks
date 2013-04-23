@@ -1,4 +1,6 @@
 Sixpicks::Application.routes.draw do
+  get "picks/index"
+
   get "pages/index"
   root :to => "pages#index"
 
