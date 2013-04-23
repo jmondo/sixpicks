@@ -11,7 +11,6 @@ class PicksController < ApplicationController
       "ll" => "37.791442,-122.392723",
       "radius" => 500,
       "categoryId" => "4d4b7105d754a06374d81259",
-      "oauth_token" => "XRSNYBSIQWGAQZ0F4PHBZLPRBQUMPMYHK5PV33U5CXH5RFUA",
       "client_id" => ENV['FOURSQUARE_CLIENT_ID'],
       "client_secret" => ENV['FOURSQUARE_CLIENT_SECRET'],
       "v" => Date.today.strftime('%Y%m%d'),
