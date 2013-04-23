@@ -1,2 +1,8 @@
-<h1>Picks#index</h1>
-<p>Find me in app/views/picks/index.html.erb</p>
+<h1>Six Picks</h1>
+<p>Try these six near 188 Spear:</p>
+<dl>
+  <% @picks.each do |pick| %>
+    <dt><%= pick.name %></dt>
+    <dd><%= link_to pick.canonicalUrl, pick.canonicalUrl %></dd>
+  <% end %>
+</dl>
